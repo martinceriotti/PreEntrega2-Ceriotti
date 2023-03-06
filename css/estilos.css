@@ -1,0 +1,4 @@
+ 
+[class*="col-sm"] {
+    background: rgb(255, 131, 218); // start with col-md (^)
+  }
