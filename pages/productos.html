@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="container text-center py-2 my-2">
+        <div class="row">
+            <div class="col">
+                <img src="../img/logo_236x63.jpg" alt="Logo de la empresa">
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center py-2  ">
+            <div class="col">
+                <h1 class="display-1">Tienda de Dulces</h1>
+            </div> 
+            <h4 class="mb-3">Productos</h4>
+        </div>
+    </div>
+    <div class="container py-3" >
+        <main>
+            <div class="row row-cols-1 row-cols-md-4 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-3 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Tortas Pignata</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/tortas/3.png" class="card-img-top" alt="tortas pignata">
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Torta de un piso con paredes de chocolate.</li>
+                            <li>15 Porciones</li>
+                            <li>US$500</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#pignataModal">Opciones</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Tortas Butter Cream</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="../img/tortas/2.png" class="card-img-top" alt="tortas butter">
+                        <ul class="list-unstyled mt-3 mb-4">
+                        <li>Biscochuelo relleno de dulce de leche cubierto de buttercream.</li>
+                        <li>25 Porciones</li>
+                        <li>US$387</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#butterModal">Opciones</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Masitas</h4>
+                </div>
+                <div class="card-body">
+                    <img src="../img/tortas/4.png" class="card-img-top" alt="masitas decoradas">
+                    <ul class="list-unstyled mt-3 mb-4">
+                    <li>Masitas decoradas con la temática que se busca. Imágenes comestibles.</li>
+                    <li>1</li>
+                    <li>US$2</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#masitasModal">Opciones</button>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 rounded-3 shadow-sm border-primary">
+                <div class="card-header py-3 ">
+                    <h4 class="my-0 fw-normal">Cake pops</h4>
+                </div>
+                <div class="card-body">
+                    <img src="../img/tortas/5.png" class="card-img-top" alt="cake pops">
+                    <ul class="list-unstyled mt-3 mb-4">
+                    <li>Chupetines de torta y dulce de leche. Decorados. </li>
+                    <li>1</li>
+                    <li>US$6</li>
+                  
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#cakepopsModal">Opciones</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </main>
+    <!-- Modal Pignata -->
+        <div class="modal fade" id="pignataModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Tortas Pignata</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Hacemos tortas pignata temáticas. Elegí el tema, el color, la deco y las golosinas. 
+                        <img src="https://scontent.fros2-1.fna.fbcdn.net/v/t39.30808-6/287430124_8132202120155112_8821064858501996171_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=4GbgSZGv8lYAX9c5jz-&_nc_ht=scontent.fros2-1.fna&oh=00_AfBSdzzuZfWwVAzU1-jKBzRxK8A99eE_EFmisxkn1J_D-w&oe=6414B9D9" class="card-img-top" alt="torta pignata">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal Butter -->
+        <div class="modal fade" id="butterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Tortas Buttercream</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Las tortas cubiertas de crema de manteca (buttercream) son las más solicitadas.
+                        <img src="https://scontent.fros2-1.fna.fbcdn.net/v/t39.30808-6/283682425_8072865396088785_7371456645046881325_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a26aad&_nc_ohc=_FGDUuMwzFoAX_T58jy&_nc_ht=scontent.fros2-1.fna&oh=00_AfDBRi0rGfezllJBzfXkAHjdzPNhOvpQLu_wK8bc36Hgbw&oe=6413EE1A" class="card-img-top" alt="torta buttercream">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Modal Masitas -->
+        <div class="modal fade" id="masitasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Masitas decoradas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Las tortas cubiertas de crema de manteca (buttercream) son las más solicitadas.
+                        <img src="https://scontent.fros2-1.fna.fbcdn.net/v/t39.30808-6/284283622_8093936600648331_3660672530274161621_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ddcAgVy-RlEAX9ytQch&_nc_ht=scontent.fros2-1.fna&oh=00_AfBarW5CXyOaLzwfctuW6NTSoRfyRf6ZuaktPrGMvbVNSQ&oe=6413F6CB" class="card-img-top" alt="masita decorada">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Cakepops -->
+        <div class="modal fade" id="cakepopsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Cakepops</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Los cakepops son chupetines de torta, dulce de leche y chocolate. 
+                        <img src="https://scontent.fros2-2.fna.fbcdn.net/v/t39.30808-6/306719276_592559009076653_7930399392277258107_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=8Z-_lRtc2dsAX85r2u9&_nc_ht=scontent.fros2-2.fna&oh=00_AfCNhEYpMiuauXS2h6C60iBRICjEjF5TW7yWUWpE_-hGPw&oe=64140E57" class="card-img-top" alt="cake pops">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="container ">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+ 
+            <li class="nav-item"><a href="./recetas.html" class="nav-link px-2 text-muted">Recetas</a></li>
+            <li class="nav-item"><a href="./precios.html" class="nav-link px-2 text-muted">Precios</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Nuestros Productos</a></li>
+            <li class="nav-item"><a href="./sobreNosotros.html" class="nav-link px-2 text-muted">Sobre Nosotros</a></li>
+          </ul>
+          <p class="text-center text-muted">&copy; 2023 La Patisserie</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
