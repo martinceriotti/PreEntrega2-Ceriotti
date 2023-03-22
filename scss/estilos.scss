@@ -1,12 +1,12 @@
 $table-header: #93003D;
 $table-header-border: #93003D;
 $table-border: #d9d9d9;
-$row-bg: #f4f2f1;
-$header-bg: #93003D;
-$primary-color: #93003D;
-$primary: #93003D;
-$light: #f8f9fa;
-$dark: #343a40;
+ $row-bg: #f4f2f1;
+ $header-bg: #93003D;
+ $primary-color: #93003D;
+ $primary: #93003D;
+ $light: #f8f9fa;
+ $dark: #343a40;
 $display-font-sizes: (
   1: 5rem,
   2: 4.5rem,
@@ -15,15 +15,14 @@ $display-font-sizes: (
   5: 3rem,
   6: 2.5rem
 );
-
-$display-font-weight: 300;
-$theme-colors: (
-  "primary": $primary
-);
-
 /* Importo desde aquí para poder sobre escribir las variables que manejan los colores */
-
 @import "../node_modules/boostrap/scss/bootstrap.scss";
+@import "../node_modules/boostrap/scss/functions";
+@import "../node_modules/boostrap/scss/variables";
+@import "../node_modules/boostrap/scss/mixins";
+@import "../node_modules/boostrap/scss/nav";
+@import "../node_modules/boostrap/scss/navbar";
+@import "../node_modules/boostrap/scss/bootstrap";
 
 body {
   width: 100%;
