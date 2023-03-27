@@ -1,13 +1,6 @@
-$table-header: #93003D;
-$table-header-border: #93003D;
-$table-border: #d9d9d9;
-$row-bg: #f4f2f1;
-$header-bg: #93003D;
-$primary-color: #93003D;
-$primary: #93003D;
-$light: #f8f9fa;
-$dark: #343a40;
-$font-size-base: 1.3rem;
+/* uso de partials*/
+@import "./colors";
+
 /* Importo desde aquí para poder sobre escribir las variables que manejan los colores */
 @import "../node_modules/boostrap/scss/bootstrap.scss";
 @import "../node_modules/boostrap/scss/functions";
